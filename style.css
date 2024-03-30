@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif ;
+}
+
+:root{
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+.header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100%;
+}
+.banner {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h2 {
+    color: burlywood;
+    z-index: 1;
+    padding: 20px 25px;
+    border: 3px solid #fff;
+}
+footer {
+    padding: 30px;
+    background-color: rgb(20, 20, 19);
+    color: antiquewhite;
+    text-align: center;
+    font-size: 150%;
+}
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: .3s;
+
+}
+.navbar a:hover {
+    color: var(--main-color);
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+.home-content h1 {
+    font-size: 4.6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+    font-size: 200%;
+    height: 80vh;
+}
+.banner3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    background: var(--second-bg-color);
+}
+.website {
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    height: 90vh;
+}
+
+.service {
+	background-color: #f9f9f9;
+}
+.box {
+	color: #148F77;
+}
+.box:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.box .col-4 {
+	width:50%;
+	padding:10px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+   
+}
+.box .col-4 h4 {
+	margin:20px 0;
+    font-size: 300%;
+}
+.box .col-4 {
+    width: 100%;
+    float:none ;
+    margin-bottom: 20px;
+    
+}
+.banner5 {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
